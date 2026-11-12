@@ -34,7 +34,7 @@ public class ExampleMod {
             mc.gameSettings.fovSetting = savedFov;
         } else {
             savedFov = mc.gameSettings.fovSetting;
-            mc.gameSettings.fovSetting = 110f;
+            mc.gameSettings.fovSetting = 150f;
         }
         active = !active;
     }
